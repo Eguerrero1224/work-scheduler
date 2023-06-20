@@ -30,7 +30,6 @@ function hourUpdater() {
 }
 
 // Local Storage retrieval
-$("hour8 .description").val(localStorage.getItem("hour8"));
 $("hour9 .description").val(localStorage.getItem("hour9"));
 $("hour10 .description").val(localStorage.getItem("hour10"));
 $("hour11 .description").val(localStorage.getItem("hour11"));
